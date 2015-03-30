@@ -1,8 +1,8 @@
 require 'sinatra'
 
  get '/hello' do
-   @visitor = params[:name]
-   erb :index
+  @visitor = params[:name]
+  erb :index
 end
 
 get '/' do
